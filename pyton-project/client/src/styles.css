@@ -1,0 +1,179 @@
+/* 전체 애플리케이션 스타일 */
+body {
+  background-color: #fff;
+  font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+  font-size: 14px;
+}
+
+/* 대시보드 스타일 */
+.dashboard .card {
+  border-radius: 0;
+  border: 1px solid #ddd;
+  box-shadow: none;
+  margin-bottom: 5px;
+}
+
+.dashboard .card-body {
+  padding: 8px;
+}
+
+/* 테이블 스타일 */
+.dashboard .table {
+  border: 1px solid #dee2e6;
+  margin-bottom: 5px;
+}
+
+.dashboard .table th {
+  font-weight: normal;
+  font-size: 0.8rem;
+  background-color: #f1f1f1;
+  padding: 4px;
+  border: 1px solid #dee2e6;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.dashboard .table td {
+  font-size: 0.8rem;
+  padding: 4px 6px;
+  border: 1px solid #dee2e6;
+  vertical-align: middle;
+}
+
+.dashboard .table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* 체크박스 스타일 */
+.form-check-input {
+  margin-top: 0;
+  width: 14px;
+  height: 14px;
+}
+
+.form-check-label {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.form-check {
+  margin-bottom: 0;
+}
+
+/* 버튼 스타일 */
+.btn-group-sm > .btn, .btn-sm {
+  padding: 2px 6px;
+  font-size: 0.7rem;
+  line-height: 1.2;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+/* 입력 필드 스타일 */
+.form-control {
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  height: auto;
+}
+
+.form-select {
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  height: auto;
+}
+
+.form-control:focus, .form-select:focus {
+  box-shadow: none;
+  border-color: #80bdff;
+}
+
+/* 구글 시트 입력창 스타일 */
+.input-group .form-control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.input-group .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  font-size: 0.8rem;
+}
+
+/* 네비게이션 스타일 */
+.navbar {
+  box-shadow: none;
+  background-color: #222 !important;
+  padding: 0.3rem 1rem;
+}
+
+.navbar-brand {
+  font-weight: normal;
+  font-size: 0.9rem;
+}
+
+/* 상단 필터 체크박스 영역 */
+.g-2 {
+  gap: 0.25rem !important;
+}
+
+/* 페이지네이션 스타일 */
+.pagination-sm .page-link {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.7rem;
+}
+
+/* 푸터 스타일 */
+.table-footer {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.table-info-text {
+  color: #666;
+}
+
+/* 페이지네이션 스타일 */
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* 폼 스타일 */
+.form-control:focus, .form-select:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* 테이블 반응형 스타일 */
+@media (max-width: 992px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  .dashboard .table th,
+  .dashboard .table td {
+    font-size: 0.7rem;
+    padding: 0.3rem;
+  }
+} 
